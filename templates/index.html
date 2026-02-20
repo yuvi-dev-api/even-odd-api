@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Even Odd Checker</title>
+</head>
+<body style="text-align:center; margin-top:100px;">
+
+    <h1>Enter Number</h1>
+
+    <form method="POST">
+        <input type="text" name="number" placeholder="Type number here" required>
+        <button type="submit">Check</button>
+    </form>
+
+    {% if result %}
+        <h2>{{ result }}</h2>
+    {% endif %}
+
+</body>
+</html>
